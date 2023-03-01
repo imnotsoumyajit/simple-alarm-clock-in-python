@@ -20,7 +20,7 @@ def alarm(secs):
         minutes_left=time_left // 60      #in int eg: 130//60 = 2
         secs_left=time_left%60            #           130%60 = 10
         
-        print(f'{CLEAR_AND_RETURN}The alarm will sound in {minutes_left:02d}minutes and {secs_left:02d}seconds')
+        print(f'{CLEAR_AND_RETURN}The alarm will ring in {minutes_left:02d}minutes and {secs_left:02d}seconds')
     playsound("my-sound.mp3")
 
 minutes=int(input("Enter Minutes : "))
